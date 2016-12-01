@@ -97,9 +97,8 @@ var secondClick = 0;
 var thirdClick = 0;
 
 function handleClick(image){
-
-    imageAppear();
-}
+  imageAppear();
+};
 
 imageOne.addEventListener('click', function(){
   handleClick(productImages[img1]);
@@ -112,4 +111,4 @@ handleClick(productImages[img3]);
 });
 
 renderChart();
-imageAppear();
+handleClick();
